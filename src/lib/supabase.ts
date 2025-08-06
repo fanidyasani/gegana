@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://placeholder.supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'placeholder-key';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://shocnncnyzfnckgkajlb.supabase.co';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNob2NubmNueXpmbmNrZ2thamxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM3NzM3MjAsImV4cCI6MjA2OTM0OTcyMH0.zYazFGoL1c-bToEI16OTpbp8Cruli-CtuYxYPoS0Vcc';
 
 // Only throw error in production or when actually trying to use Supabase
 const isPlaceholder = supabaseUrl.includes('placeholder') || supabaseAnonKey.includes('placeholder');
